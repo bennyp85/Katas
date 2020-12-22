@@ -2,9 +2,10 @@ import requests
 import json
 from datetime import datetime
 
+#Exact co-ordinates for 9 Tantani Street, Frankston
 parameters = {
-    "lat": 24.45,
-    "lon": 12.67
+    "lat": -38.137410,
+    "lon": 145.167420
 }
 
 response = requests.get("http://api.open-notify.org/iss-pass.json", params=parameters)
